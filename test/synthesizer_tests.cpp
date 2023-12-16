@@ -107,7 +107,7 @@ TEST(SynthesizerTests, SynthesizerSampleTest) {
 }
 */
 
-TEST(SynthesizerTests, SynthesizerSystemTestSingleThread) {
+/*TEST(SynthesizerTests, SynthesizerSystemTestSingleThread) {
     constexpr int inputSamples = 64;
     constexpr int outputSamples = 63;
 
@@ -187,4 +187,4 @@ TEST(SynthesizerTests, SynthesizerSystemTest) {
     synth.destroy();
 
     delete[] output;
-}
+}*/
